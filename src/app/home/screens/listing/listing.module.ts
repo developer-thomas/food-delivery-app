@@ -9,9 +9,15 @@ import { ListingPageRoutingModule } from './listing-routing.module';
 import { ListingPage } from './listing.page';
 import { SearchbarComponent } from 'src/app/components/searchbar/searchbar.component';
 import { CategoryIconComponent } from 'src/app/components/category-icon/category-icon.component';
+import { FoodCardComponent } from 'src/app/components/food-card/food-card.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule, IonicModule, ListingPageRoutingModule],
-  declarations: [ListingPage, SearchbarComponent, CategoryIconComponent],
+  declarations: [
+    ListingPage,
+    SearchbarComponent,
+    CategoryIconComponent,
+    FoodCardComponent,
+  ],
 })
 export class ListingPageModule {}
