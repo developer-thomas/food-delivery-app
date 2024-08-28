@@ -17,7 +17,7 @@ const routes: Routes = [
       {
         path: 'cart',
         loadChildren: () =>
-          import('../screens/cart/cart.module').then((m) => m.CartPageModule),
+          import('./screens/cart/cart.module').then((m) => m.CartPageModule),
       },
       {
         path: '',
